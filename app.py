@@ -9,7 +9,7 @@ import joblib
 model = joblib.load('kmeans_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-df = pd.read_csv('/content/DataSpotify.csv', sep=';', low_memory=False)
+df = pd.read_csv('DataSpotify.csv', sep=';', low_memory=False)
 
 # =========================
 # BERSIHKAN KOLOM
